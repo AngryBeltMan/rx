@@ -1,0 +1,37 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I./include",
+      "-c",
+      "-g",
+      "-DTESTING",
+      "-o",
+      "build/./src/rx_cache.c.o",
+      "src/rx_cache.c"
+    ],
+    "directory": "/home/ericbruh/Downloads/new_rx",
+    "file": "/home/ericbruh/Downloads/new_rx/src/rx_cache.c",
+    "output": "/home/ericbruh/Downloads/new_rx/build/src/rx_cache.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I./include",
+      "build/./src/rx_cache.c.o",
+      "build/./src/rx.c.o",
+      "build/./src/rx_data_set.c.o",
+      "build/./src/blake/blake.c.o",
+      "build/./src/argon2d/argon2_mem.c.o",
+      "build/./src/argon2d/argon2d.c.o",
+      "-g",
+      "-o",
+      "build/rx",
+      "src/main.c"
+    ],
+    "directory": "/home/ericbruh/Downloads/new_rx",
+    "file": "/home/ericbruh/Downloads/new_rx/src/main.c",
+    "output": "/home/ericbruh/Downloads/new_rx/build/rx"
+  }
+]
